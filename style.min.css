@@ -14,6 +14,10 @@
   font-family: "Stolzl";
   src: url(/fonts/Stolzl-Regular.ttf);
 }
+@font-face {
+  font-family: "Play";
+  src: url(/fonts/Play-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -185,7 +189,7 @@ body {
   }
 }
 .sec_two .services_wr .services {
-  font-family: "Stolzl";
+  font-family: "Play";
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -271,13 +275,15 @@ body {
   }
 }
 .sec_three .lap_descr .descr {
-  font-family: "Ascender_bold", sans-serif;
+  font-family: "Play", sans-serif;
   font-size: calc((1vw + 1vh) * 0.98);
   width: 46%;
+  padding-left: 40px;
 }
 @media (max-width: 576px) {
   .sec_three .lap_descr .descr {
     width: 70%;
+    padding-left: 20px;
   }
 }
 .sec_three .lap_descr .laptop_wr {
@@ -424,7 +430,7 @@ body {
 }
 .sec_four .strat_col-1 .strat_text {
   padding: 140px 0 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 60%;
 }
@@ -483,7 +489,7 @@ body {
 }
 .sec_four .strat_col-2 .strat_text {
   padding: 80px 0 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -653,7 +659,7 @@ body {
 }
 .sec_five .content_text {
   padding: 140px 0 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 60%;
 }
@@ -685,7 +691,7 @@ body {
 }
 .sec_five .kty .strat_col {
   padding: 140px 0 0px 180px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 75%;
 }
@@ -877,7 +883,7 @@ body {
 }
 .sec_six .ham_wr .content_text {
   padding: 140px 0 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -904,7 +910,7 @@ body {
 }
 .sec_six .strat_col {
   padding: 140px 0 0px 180px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 75%;
 }
@@ -1070,7 +1076,7 @@ body {
 }
 .sec_seven .ham_wr .content_text {
   padding: 140px 40px 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -1119,7 +1125,7 @@ body {
 }
 .sec_seven .strat_col .content_text {
   padding: 140px 0 0px 180px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -1308,7 +1314,7 @@ body {
 }
 .sec_eight .ham_wr .content_text {
   padding: 140px 40px 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -1335,7 +1341,7 @@ body {
 }
 .sec_eight .strat_col {
   padding: 140px 0 0px 180px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -1561,7 +1567,7 @@ body {
 }
 .sec_nine .ham_wr .content_text {
   padding: 140px 40px 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -1622,7 +1628,7 @@ body {
 }
 .sec_nine .strat_col .content_text {
   padding: 140px 0 0px 180px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -1856,7 +1862,7 @@ body {
 }
 .sec_ten .ham_wr .content_text {
   padding: 140px 40px 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -1883,7 +1889,7 @@ body {
 }
 .sec_ten .strat_col {
   padding: 140px 0 0px 180px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
 }
@@ -2053,7 +2059,7 @@ body {
 }
 .section_team .content_text {
   padding: 0 40px 0 80px;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: calc((1vw + 1vh) * 0.98);
   width: 70%;
   padding-bottom: 120px;
@@ -2211,6 +2217,7 @@ body {
   }
 }
 .section_team .team_wr .char .data .pos {
+  font-family: "Play";
   text-transform: lowercase;
   font-size: 14px;
 }
@@ -2254,7 +2261,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  font-family: "Stolzl";
+  font-family: "Play";
   font-size: 26px;
   transform: translateX(10%);
   position: relative;

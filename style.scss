@@ -43,6 +43,10 @@ $breakpoint-xl-max: $breakpoint-xxl-min - 1px;
     font-family: 'Stolzl'; 
     src: url(/fonts/Stolzl-Regular.ttf); 
 }
+@font-face {
+    font-family: 'Play'; 
+    src: url(/fonts/Play-Regular.ttf); 
+}
 
 @mixin openSans {
 
@@ -195,7 +199,7 @@ body {
             flex-direction: column;
         }
         .services {
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             display: flex;
             flex-direction: column;
             width: 80%;
@@ -268,11 +272,13 @@ body {
             flex-direction: column-reverse;
         }
         .descr {
-            font-family: 'Ascender_bold', sans-serif;
+            font-family: 'Play', sans-serif;
             font-size: calc((1vw + 1vh) * .98);
             width: 46%;
+            padding-left: 40px;
             @media  (max-width: $breakpoint-sm-min) {
                 width: 70%;
+                padding-left: 20px;
             }
         }
     
@@ -401,7 +407,7 @@ body {
             margin-bottom: 160px;
             .strat_text {
                 padding: 140px 0 0 80px;
-                font-family: 'Stolzl'; 
+                font-family: 'Play'; 
                 font-size: calc((1vw + 1vh) * .98);
                 width: 60%;
                 @media  (max-width: $breakpoint-sm-min) {
@@ -450,7 +456,7 @@ body {
             
             .strat_text {
                 padding: 80px 0 0 80px;
-                font-family: 'Stolzl'; 
+                font-family: 'Play'; 
                 font-size: calc((1vw + 1vh) * .98);
                 width: 70%;
                 @media  (max-width: $breakpoint-sm-min) {
@@ -614,7 +620,7 @@ body {
 
     .content_text {
         padding: 140px 0 0 80px;
-        font-family: 'Stolzl'; 
+        font-family: 'Play'; 
         font-size: calc((1vw + 1vh) * .98);
         width: 60%;
         @media  (max-width: $breakpoint-sm-min) {
@@ -642,7 +648,7 @@ body {
         display: flex;
         .strat_col {
             padding: 140px 0 0px 180px;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: calc((1vw + 1vh) * .98);
             width: 75%;
             @media  (max-width: $breakpoint-sm-min) {
@@ -836,7 +842,7 @@ body {
         }
         .content_text {
             padding: 140px 0 0 80px;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: calc((1vw + 1vh) * .98);
             width: 70%;
             @media  (max-width: $breakpoint-sm-min) {
@@ -860,7 +866,7 @@ body {
     }
     .strat_col {
         padding: 140px 0 0px 180px;
-        font-family: 'Stolzl'; 
+        font-family: 'Play'; 
         font-size: calc((1vw + 1vh) * .98);
         width: 75%;
         @media  (max-width: $breakpoint-sm-min) {
@@ -1032,7 +1038,7 @@ body {
         }
         .content_text {
             padding: 140px 40px 0 80px;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: calc((1vw + 1vh) * .98);
             width: 70%;
             @media  (max-width: $breakpoint-sm-min) {
@@ -1072,7 +1078,7 @@ body {
         }
         .content_text {
             padding: 140px 0 0px 180px;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: calc((1vw + 1vh) * .98);
             width: 70%;
             @media  (max-width: $breakpoint-sm-min) {
@@ -1264,7 +1270,7 @@ body {
         }
         .content_text {
             padding: 140px 40px 0 80px;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: calc((1vw + 1vh) * .98);
             width: 70%;
             @media  (max-width: $breakpoint-sm-min) {
@@ -1288,7 +1294,7 @@ body {
     }
     .strat_col {
         padding: 140px 0 0px 180px;
-        font-family: 'Stolzl'; 
+        font-family: 'Play'; 
         font-size: calc((1vw + 1vh) * .98);
         width: 70%;
         @media  (max-width: $breakpoint-sm-min) {
@@ -1515,7 +1521,7 @@ body {
         }
         .content_text {
             padding: 140px 40px 0 80px;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: calc((1vw + 1vh) * .98);
             width: 70%;
             @media  (max-width: $breakpoint-sm-min) {
@@ -1569,7 +1575,7 @@ body {
         }
         .content_text {
             padding: 140px 0 0px 180px;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: calc((1vw + 1vh) * .98);
             width: 70%;
             @media  (max-width: $breakpoint-sm-min) {
@@ -1806,7 +1812,7 @@ body {
         }
         .content_text {
             padding: 140px 40px 0 80px;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: calc((1vw + 1vh) * .98);
             width: 70%;
             @media  (max-width: $breakpoint-sm-min) {
@@ -1830,7 +1836,7 @@ body {
     }
     .strat_col{
         padding: 140px 0 0px 180px;
-        font-family: 'Stolzl'; 
+        font-family: 'Play'; 
         font-size: calc((1vw + 1vh) * .98);
         width: 70%;
         @media  (max-width: $breakpoint-sm-min) {
@@ -2012,7 +2018,7 @@ body {
     }
     .content_text {
         padding: 0 40px 0 80px;
-        font-family: 'Stolzl'; 
+        font-family: 'Play'; 
         font-size: calc((1vw + 1vh) * .98);
         width: 70%;
         padding-bottom: 120px;
@@ -2146,6 +2152,7 @@ body {
                     }
                 }
                 .pos {
+                    font-family: 'Play';
                     text-transform: lowercase;
                     font-size: 14px;
                     @media  (max-width: $breakpoint-sm-min) {
@@ -2184,7 +2191,7 @@ body {
             display: flex;
             flex-direction: column;
             text-align: left;
-            font-family: 'Stolzl'; 
+            font-family: 'Play'; 
             font-size: 26px;
             transform: translateX(10%);
             position: relative;
