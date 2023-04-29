@@ -409,7 +409,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_four .h2_wr .h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .sec_four .h2_wr .subt {
@@ -419,7 +419,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_four .h2_wr .subt {
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 .sec_four .line {
@@ -646,7 +646,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_five .h2_wr .h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .sec_five .h2_wr .subt {
@@ -657,7 +657,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_five .h2_wr .subt {
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 .sec_five .h2_wr .carp {
@@ -856,7 +856,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_six .h2_wr .h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .sec_six .h2_wr .subt {
@@ -867,7 +867,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_six .h2_wr .subt {
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 .sec_six .ham_wr {
@@ -1039,7 +1039,6 @@ body {
 }
 .sec_seven .h2_wr {
   display: flex;
-  flex-direction: column;
 }
 .sec_seven .h2_wr .h2 {
   font-family: "Stolzl";
@@ -1048,8 +1047,8 @@ body {
 }
 @media (max-width: 576px) {
   .sec_seven .h2_wr .h2 {
-    font-size: 20px;
-    margin-bottom: 14px;
+    font-size: 16px;
+    white-space: nowrap;
   }
 }
 .sec_seven .h2_wr .subt {
@@ -1060,8 +1059,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_seven .h2_wr .subt {
-    font-size: 8px;
-    padding-left: 20px;
+    font-size: 6px;
   }
 }
 .sec_seven .ham_wr {
@@ -1268,11 +1266,6 @@ body {
 .sec_eight .h2_wr {
   display: flex;
 }
-@media (max-width: 576px) {
-  .sec_eight .h2_wr {
-    flex-direction: column;
-  }
-}
 .sec_eight .h2_wr .h2 {
   font-family: "Stolzl";
   font-size: 46px;
@@ -1280,8 +1273,8 @@ body {
 }
 @media (max-width: 576px) {
   .sec_eight .h2_wr .h2 {
-    font-size: 20px;
-    margin-bottom: 14px;
+    font-size: 16px;
+    white-space: nowrap;
   }
 }
 .sec_eight .h2_wr .subt {
@@ -1292,8 +1285,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_eight .h2_wr .subt {
-    font-size: 8px;
-    padding-left: 20px;
+    font-size: 6px;
   }
 }
 .sec_eight .ham_wr {
@@ -1525,11 +1517,6 @@ body {
 .sec_nine .h2_wr {
   display: flex;
 }
-@media (max-width: 576px) {
-  .sec_nine .h2_wr {
-    flex-direction: column;
-  }
-}
 .sec_nine .h2_wr .h2 {
   font-family: "Stolzl";
   font-size: 46px;
@@ -1537,8 +1524,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_nine .h2_wr .h2 {
-    font-size: 20px;
-    margin-bottom: 14px;
+    font-size: 16px;
   }
 }
 .sec_nine .h2_wr .subt {
@@ -1549,8 +1535,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_nine .h2_wr .subt {
-    font-size: 8px;
-    padding-left: 20px;
+    font-size: 6px;
   }
 }
 .sec_nine .ham_wr {
@@ -1833,7 +1818,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_ten .h2_wr .h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .sec_ten .h2_wr .subt {
@@ -1844,7 +1829,7 @@ body {
 }
 @media (max-width: 576px) {
   .sec_ten .h2_wr .subt {
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 .sec_ten .ham_wr {

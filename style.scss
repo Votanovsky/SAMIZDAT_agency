@@ -387,7 +387,7 @@ body {
             font-size: 46px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 20px;
+                font-size: 16px;
             }
         }
         .subt {
@@ -395,7 +395,7 @@ body {
             align-items: flex-start;
             font-size: 22px;
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 8px;
+                font-size: 6px;
             }
         }
     }
@@ -606,7 +606,7 @@ body {
             font-size: 46px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 20px;
+                font-size: 16px;
             }
         }
         .subt {
@@ -615,7 +615,7 @@ body {
             font-size: 22px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 8px;
+                font-size: 6px;
             }
         }
         .carp {
@@ -817,7 +817,7 @@ body {
             font-size: 46px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 20px;
+                font-size: 16px;
             }
         }
         .subt {
@@ -826,7 +826,7 @@ body {
             font-size: 22px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 8px;
+                font-size: 6px;
             }
         }
     }
@@ -1005,14 +1005,15 @@ body {
     }
     .h2_wr {
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
         .h2 {
             font-family: 'Stolzl'; 
             font-size: 46px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 20px;
-                margin-bottom: 14px;
+                font-size: 16px;
+                white-space: nowrap;
+                // margin-bottom: 14px;
             }
         }
         .subt {
@@ -1021,8 +1022,8 @@ body {
             font-size: 22px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 8px;
-                padding-left: 20px;
+                font-size: 6px;
+                // padding-left: 20px;
             }
         }
     }
@@ -1233,15 +1234,16 @@ body {
         display: flex;
         
         @media  (max-width: $breakpoint-sm-min) {
-            flex-direction: column;
+            // flex-direction: column;
         }
         .h2 {
             font-family: 'Stolzl'; 
             font-size: 46px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 20px;
-                margin-bottom: 14px;
+                font-size: 16px;
+                white-space: nowrap;
+                // margin-bottom: 14px;
             }
         }
         .subt {
@@ -1250,8 +1252,8 @@ body {
             font-size: 22px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 8px;
-                padding-left: 20px;
+                font-size: 6px;
+                // padding-left: 20px;
             }
         }
     }
@@ -1488,15 +1490,15 @@ body {
     .h2_wr {
         display: flex;
         @media  (max-width: $breakpoint-sm-min) {
-            flex-direction: column;
+            // flex-direction: column;
         }
         .h2 {
             font-family: 'Stolzl'; 
             font-size: 46px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 20px;
-                margin-bottom: 14px;
+                font-size: 16px;
+                // margin-bottom: 14px;
             }
         }
         .subt {
@@ -1505,8 +1507,8 @@ body {
             font-size: 22px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 8px;
-                padding-left: 20px;
+                font-size: 6px;
+                // padding-left: 20px;
             }
         }
     }
@@ -1787,7 +1789,7 @@ body {
             font-size: 46px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 20px;
+                font-size: 16px;
             }
         }
         .subt {
@@ -1796,7 +1798,7 @@ body {
             font-size: 22px;
             margin-right: calc((1vw + 1vh) * .98);
             @media  (max-width: $breakpoint-sm-min) {
-                font-size: 8px;
+                font-size: 6px;
             }
         }
     }
