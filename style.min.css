@@ -48,7 +48,8 @@ body {
 }
 @media (max-width: 576px) {
   .sec_one {
-    padding: calc((1vw + 1vh) * 3) 20px calc((1vw + 1vh) * 1);
+    padding: calc((1vw + 1vh) * 9) 15px calc((1vw + 1vh) * 1);
+    height: 100vh;
   }
 }
 .sec_one .title {
@@ -100,6 +101,7 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
+  padding-top: 160px;
 }
 .sec_one .promo_wr .carpet {
   width: 60%;
@@ -120,6 +122,12 @@ body {
      object-fit: contain;
   bottom: 5%;
   right: 25%;
+}
+@media (max-width: 576px) {
+  .sec_one .promo_wr .tv {
+    right: 5%;
+    width: 40%;
+  }
 }
 
 .sec_two {
@@ -198,6 +206,7 @@ body {
 @media (max-width: 576px) {
   .sec_two .services_wr .services {
     width: 100%;
+    padding-top: 40px;
   }
 }
 .sec_two .services_wr .services .cat {
@@ -210,7 +219,8 @@ body {
   .sec_two .services_wr .services .cat {
     width: calc((1vw + 1vh) * 7);
     top: -80px;
-    left: 120px;
+    left: 10px;
+    width: calc((1vw + 1vh) * 13);
   }
 }
 .sec_two .services_wr .services--tw {
@@ -2280,6 +2290,18 @@ body {
   margin: 0 auto;
   position: relative;
 }
+.sec_case .video_wr iframe {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec_case .video_wr video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 @media (max-width: 576px) {
   .sec_case .video_wr {
     height: 20vh;
@@ -2306,6 +2328,20 @@ body {
 .section_contacts {
   padding: 120px 45px 140px 45px;
   background: #E9E9E9;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.section_contacts .gran-mb {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .section_contacts .gran-mb {
+    display: block;
+  }
 }
 @media (max-width: 576px) {
   .section_contacts {
@@ -2330,7 +2366,7 @@ body {
 }
 @media (max-width: 576px) {
   .section_contacts .contacts_wr {
-    padding-top: 80px;
+    padding-top: 160px;
   }
 }
 .section_contacts .contacts_wr .contacts {
@@ -2362,6 +2398,7 @@ body {
 @media (max-width: 576px) {
   .section_contacts .contacts_wr .contacts .gran {
     width: 100%;
+    display: none;
   }
 }
 .section_contacts .contacts_wr .contacts .arr_b {

@@ -77,7 +77,8 @@ body {
         padding: calc($index-size * 5) 20px calc($index-size * 1);
     }
     @media  (max-width: $breakpoint-sm-min) {
-        padding: calc($index-size * 3) 20px calc($index-size * 1);
+        padding: calc($index-size * 9) 15px calc($index-size * 1);
+        height: 100vh;
     }
     .title {
         display: flex;
@@ -126,6 +127,7 @@ body {
         display: flex;
         justify-content: center;
         position: relative;
+        padding-top: 160px;
         .carpet {
             width: 60%;
             height: auto;
@@ -141,6 +143,10 @@ body {
             object-fit: contain;
             bottom: 5%;
             right: 25%;
+            @media  (max-width: $breakpoint-sm-min) {
+                right: 5%;
+                width: 40%;
+            }
         }
     }
     
@@ -206,6 +212,7 @@ body {
             position: relative;
             @media  (max-width: $breakpoint-sm-min) {
                 width: 100%;
+                padding-top: 40px;
             }
             .cat {
                 position: absolute;
@@ -215,7 +222,8 @@ body {
                 @media  (max-width: $breakpoint-sm-min) {
                     width: calc($index-size * 7);
                     top: -80px;
-                    left: 120px;
+                    left: 10px;
+                    width: calc($index-size * 13);
                 }
             }
             &--tw {
@@ -2211,6 +2219,16 @@ body {
         background: $color-white;
         margin: 0 auto;
         position: relative;
+        iframe {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
         @media  (max-width: $breakpoint-sm-min) {
             height: 20vh;
             width: 80%;
@@ -2236,6 +2254,18 @@ body {
 .section_contacts {
     padding: 120px 45px 140px 45px;
     background: $color-grey;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    .gran-mb {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        @media  (max-width: $breakpoint-sm-min) {
+            display: block;
+        }
+    }
     @media  (max-width: $breakpoint-sm-min) {
         padding: 60px 15px 0;
     }
@@ -2253,7 +2283,7 @@ body {
         display: flex;
         justify-content: center;
         @media  (max-width: $breakpoint-sm-min) {
-            padding-top: 80px;
+            padding-top: 160px;
         }
         .contacts {
             display: flex;
@@ -2278,6 +2308,7 @@ body {
                 margin: 60px auto 0;
                 @media  (max-width: $breakpoint-sm-min) {
                     width: 100%;
+                    display: none;
                 }
             }
             .arr_b {
